@@ -24,8 +24,8 @@
     <p class="lead text-white text-center">Please Sign In if you are already registered. <code class="small text-warning">If you don't have an account, please register,</code> On <code class="small text-warning">which are available &gt; page</code>.</p>
   </div>
   <div class="text-center">
-    <a href="login.php" class="btn btn-outline-light btn-sm">Sign in</a>
-    <a href="register.php" class="btn btn-outline-light btn-sm">Sign up</a>
+    <a href="login.php" class="btn btn-outline-light btn-lg rounded-pill">Sign in</a>
+    <a href="register.php" class="btn btn-outline-light btn-lg rounded-pill">Sign up</a>
   </div>
 </main>
 
