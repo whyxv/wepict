@@ -1,5 +1,9 @@
 body {
-    background-color: black;
+    background: linear-gradient(to bottom left, #660066 0%, #ffcccc 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 h2 {
