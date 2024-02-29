@@ -80,8 +80,8 @@ if (isset($_POST['logout'])) {
                 $sql2 = mysqli_query($conn, "select * from likefoto where fotoid='$fotoid'");
                 $sql3 = mysqli_query($conn, "select * from komentarfoto where fotoid='$fotoid'");
                 ?>
-                <a href="admin.php?fotoid=<?= $data['fotoid'] ?>"><button type="button" class="btn btn-dark">like (<?= mysqli_num_rows($sql2) ?>)</button></a>
-                <a href="komentar.php?fotoid=<?= $data['fotoid'] ?>"><button type="button" class="btn btn-dark">comment (<?= mysqli_num_rows($sql3) ?>)</button></a>
+                <a href="admin.php?fotoid=<?= $data['fotoid'] ?>"><button type="button" class="btn btn-outline-light">like (<?= mysqli_num_rows($sql2) ?>)</button></a>
+                <a href="komentar.php?fotoid=<?= $data['fotoid'] ?>"><button type="button" class="btn btn-outline-light">comment (<?= mysqli_num_rows($sql3) ?>)</button></a>
             </div>
         </div>
       <?php
