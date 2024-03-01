@@ -64,9 +64,9 @@ if (isset($_POST['logout'])) {
       $sql = mysqli_query($conn, "select * from foto,user where foto.userid=user.userid");
       while ($data = mysqli_fetch_array($sql)) {
       ?>
-        <div class="col-sm-2 my-4 justify-content-center">
+        <div class="col-sm-2 my-3 justify-content-center">
           <div class="text-center">
-            <img class="rounded shadow-lg" src="gambar/<?= $data['lokasifile'] ?>" alt="foto" width="200px">
+            <img class="rounded-pill shadow-lg" src="gambar/<?= $data['lokasifile'] ?>" alt="foto" width="200px">
           </div>     
           <div class="text-center text-white">
               <h5><?= $data['judulfoto'] ?></h5>
